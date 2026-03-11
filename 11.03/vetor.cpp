@@ -3,10 +3,12 @@
 #include <iostream>
 #include <sstream>
 #include <stdio.h>
+#include <locale.h>
 
 using namespace std;
 
 int main(){
+	setlocale (LC_ALL, "Portuguese");
     int n, p = 0, i;
 
     cout << "Digite número: ";

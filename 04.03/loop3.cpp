@@ -1,11 +1,13 @@
 #include <iostream>
 #include <sstream>
 #include <stdio.h>
+#include <locale.h>
 
 using namespace std;
 
 int main()
 {
+    	setlocale (LC_ALL, "Portuguese");
     int a[5], b[5], c[5];
 
     cout << "#### VETOR A ####" << endl;

@@ -3,11 +3,12 @@ e em seguida calcule e imprima a soma dos positivos*/
 #include <iostream>
 #include <sstream>
 #include <stdio.h>
+#include <locale.h>
 
 using namespace std;
 
-int main()
-{
+int main(){
+    	setlocale (LC_ALL, "Portuguese");
     int n, s, i;
     cout << "Digite o número: ";
     cin >> n;
