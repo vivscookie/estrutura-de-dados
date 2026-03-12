@@ -12,11 +12,14 @@ using namespace std;
 int main(){
 	setlocale (LC_ALL, "Portuguese");
 	int n[6], maior, menor, i;
+
 	
+	cout << "Digite número: ";
+	cin >> n[0];
 	maior = n[0];
 	menor = n[0];
 	
-	for(i=0;i<6;i++){
+	for(i=1;i<6;i++){
 		cout << "Digite número: ";
 		cin >> n[i];
 		
