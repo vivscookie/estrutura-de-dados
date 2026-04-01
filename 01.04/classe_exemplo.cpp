@@ -53,7 +53,22 @@ public:
 		cout << " " << " " << endl;
 		cout << "Nome: " << nome << endl;
 		cout << "Idade: " << idade << " anos" << endl;
-		cout << "Endere�o: " << endereco << endl;
-		cout << "Profiss�o: " << profissao << endl;
+		cout << "Endereço: " << endereco << endl;
+		cout << "Profissão: " << profissao << endl;
 	}
+};
+
+int main(){
+	Pessoa pessoa1("João",30, "Rua Principal, 123", "Engenheiro");
+	
+	pessoa1.mostrarInfo();
+	
+	pessoa1.setNome("Maria");
+	pessoa1.setIdade(25);
+	pessoa1.setEndereco("Avenida Secundária, 456");
+	pessoa1.setProfissao("Médica");
+
+	pessoa1.mostrarInfo();
+	
+	return 0;
 }
