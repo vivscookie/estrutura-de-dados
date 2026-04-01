@@ -11,7 +11,7 @@ bool ehPar(int numero){
 int main (){
 	int numero = 7;
 	
-if (ehPar(numero){
+if (ehPar(numero)){
 	cout << numero << " é um número par."<<endl;
 } else {
 	cout << numero << " não é um número par." <<endl;
