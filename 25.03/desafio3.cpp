@@ -4,19 +4,17 @@ using namespace std;
 
 bool ehPar(int numero){
 	
-	int par = numero % 2;
-	
-	return par;	
+	int par = numero % 2 == 0;
+
 }
 
 int main (){
 	int numero = 7;
-	int teste = ehPar(numero);
 	
-if (teste==0){
-	cout << numero << " é um número par."<<endl;
+if (ehPar(numero){
+	cout << numero << " Ã© um nÃºmero par."<<endl;
 } else {
-	cout << numero << " não é um número par." <<endl;
+	cout << numero << " nÃ£o Ã© um nÃºmero par." <<endl;
 }
 
 return 0;
