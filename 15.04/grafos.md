@@ -1,6 +1,6 @@
 # Grafos
 
-![GRAFO.png](GRAFO.png)
+![GRAFO.png](GRAFO_1.png)
 
 https://www.geeksforgeeks.org/dsa/dijkstras-shortest-path-algorithm-greedy-algo-7/
 
